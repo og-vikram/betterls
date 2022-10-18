@@ -1,2 +1,2 @@
 all: 
-	go build -o betterls main.go
+	go build -o betterls.out main.go
