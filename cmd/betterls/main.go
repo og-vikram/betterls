@@ -1,10 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"os"
-	"sort"
 )
 
 func main(){
@@ -18,11 +16,6 @@ func main(){
 	for _, file := range files {
 		fileNames = append(fileNames, file.Name())
 	}
+
 	
-	for _, fileName := range fileNames {
-		fmt.Println(fileName)
-	}
-	sort.Strings(fileNames)
-
-
 }
